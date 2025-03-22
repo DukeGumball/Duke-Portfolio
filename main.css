@@ -1,0 +1,19 @@
+#TitleBar {
+
+    text-align: left;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(164, 181, 181);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#MainBar {
+
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position:absolute;
+
+
+}
