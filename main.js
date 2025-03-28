@@ -1,8 +1,19 @@
+
+
 document.addEventListener("DOMContentLoaded", async() => {
     const projectsButton = document.querySelector("#Projects");
-    const dropdown = document.querySelector("#DropDown");
+    const dropdown = document.querySelector("#DropDown_Projects");
 
-    const hoveredProject = false;
+    hoveredProject = false;
+
+    fetch('./projects.json')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data.Projects);
+        })
+        .catch(error => {
+            console.error('Error fetching projects:', error);
+        });
 
     projectsButton.addEventListener("mouseover", () => {
 
@@ -18,7 +29,7 @@ document.addEventListener("DOMContentLoaded", async() => {
 
     });
 
-    projectsButton.addEventListener("mouseout", () => {
+    dropdown.addEventListener("mouseout", () => {
 
         hoveredProject = false;
         dropdown.style.display = "none";
