@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", async() => {
     const projectsButton = document.querySelector("#Projects");
     const dropdown = document.querySelector("#DropDown_Projects");
+    const homeButton = document.querySelector("TitleBar")
 
     hoveredProject = false;
 
@@ -33,6 +34,12 @@ document.addEventListener("DOMContentLoaded", async() => {
             console.error('Error fetching projects:', error);
     });
 
+    homeButton.addEventListener("cick", () => {
+
+        window.location.href = "https://dukegumball.github.io/Duke-Portfolio";
+
+    })
+    
     projectsButton.addEventListener("mouseover", () => {
 
         hoveredProject = true;
