@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", async() => {
     const projectsButton = document.querySelector("#Projects");
     const dropdown = document.querySelector("#DropDown_Projects");
-    const homeButton = document.querySelector("TitleBar")
+    const homeButton = document.querySelector("#TitleBar")
 
     hoveredProject = false;
 
