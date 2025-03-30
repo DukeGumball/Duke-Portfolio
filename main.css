@@ -37,7 +37,7 @@
 
 #DropDown_Projects {
     position: absolute;
-    display: block;
+    display: none;
     flex-direction: column; /* Stack children vertically */
     height: 1000%;
     width: 10%;
@@ -73,6 +73,16 @@
     font-size: calc(1 * 1em);
 }
 
+#PageTitle {
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Clash Grotesk';
+    src: url('/fonts/clash-grotesk-regular.woff2') format('woff2'),
+    url('/fonts/clash-grotesk-regular.woff') format('woff');
+}
 
 #MainBar {
 
