@@ -7,13 +7,17 @@ document.addEventListener("DOMContentLoaded", async() => {
     hoveredProject = false;
 
     fetch('./data/projects.json')
-        .then(response => response.json())
-        .then(data => {
-            console.log(data.Projects);
-        })
-        .catch(error => {
-            console.error('Error fetching projects:', error);
-        });
+    .then(response => response.text())
+    .then(text => {
+        console.log('Response text:', text);
+        return JSON.parse(text);
+    })
+    .then(data => {
+        console.log(data.Projects);
+    })
+    .catch(error => {
+        console.error('Error fetching projects:', error);
+    });
 
     projectsButton.addEventListener("mouseover", () => {
 
