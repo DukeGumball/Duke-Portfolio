@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async() => {
             return JSON.parse(text);
         })
         .then(data => {
-            const projects = data.Projects;
+            const projects = data.ProjectsTab;
 
             for (const project of projects) {
                 const projectLabel = document.createElement("button");

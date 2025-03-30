@@ -1,5 +1,5 @@
 {
-    "Projects": [
+    "ProjectsTab": [
         {
             "name": "RBX - Games",
             "url": "https://dukegumball.github.io/Duke-Portfolio/Roblox-Games"
@@ -8,5 +8,16 @@
             "name": "RBX - Commission Work",
             "url": "https://dukegumball.github.io/Duke-Portfolio/Roblox-Commission-Work"
         }
+    ],
+    "Showcases": [
+        {
+            "name": "Title Showcase",
+            "About": "",
+            "MainImage": "",
+            "ComponentsList": ["Attack", "Movement", "Inventory"],
+            "videos": ["",""],
+            "showcaselink": ""
+        }
+       
     ]
 }
