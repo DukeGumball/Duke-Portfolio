@@ -1,17 +1,16 @@
 #TitleBar {
 
     position:absolute;
-    display: flex;
     background-color: transparent;
-    height: 25px;
-    top: 15%;
     -webkit-text-fill-color: rgb(255, 255, 255);
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: rgb(164, 181, 181);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: calc(1 * 1em);
     overflow: hidden;
     border: 0px;
+    height: 50px;
+
+    top: calc(var(--mainbarheight) / 2 - 50px/2 );
 
 }
 #Projects {
@@ -44,7 +43,7 @@
     width: 10%;
     left: 15%;
     right: 75%;
-    top: 25px;
+    top: var(--mainbarheight);
     justify-content: center;
     align-items: center;
     -webkit-text-fill-color: rgb(0, 0, 0);
@@ -57,7 +56,6 @@
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
 
-
 }
 
 #BaseDropDown_Projects {
@@ -69,10 +67,11 @@
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: transparent;
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
     overflow: hidden;
     font-size: calc(1 * 1em);
+    border-radius: 5px;
 }
 
 #PageTitle {
@@ -80,14 +79,14 @@
     text-align: center;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 30px;
+    margin: 40px;
 }
 
 #MainBar {
 
     position:absolute;
-
-    height: 25px;
+    --mainbarheight : 40px;
+    height: var(--mainbarheight);
     width: 100%;
     left: 0;
     top:0;
