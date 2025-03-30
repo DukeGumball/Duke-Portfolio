@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", async() => {
 
     hoveredProject = false;
 
-    fetch('./data/projects.json')
+    fetch('./projects.json')
     .then(response => response.text())
     .then(text => {
         console.log('Response text:', text);
