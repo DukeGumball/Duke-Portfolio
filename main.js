@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async() => {
                 projectLabel.innerHTML = project.name;
                 dropdown.appendChild(projectLabel);
 
-                projectLabel.addEventListener("onclick", () => {
+                projectLabel.addEventListener("click", () => {
                    
                     window.location.href = project.url;
 

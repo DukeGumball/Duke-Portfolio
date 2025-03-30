@@ -71,6 +71,8 @@
     border: 1px solid rgb(255, 0, 0);
     box-sizing: border-box;
     overflow: hidden;
+    text-overflow: ellipsis; /* Adds "..." if text overflows */
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
     font-size: calc(1 * 1em);
 }
 
