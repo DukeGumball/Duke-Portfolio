@@ -43,21 +43,21 @@ document.addEventListener("DOMContentLoaded", async() => {
     projectsButton.addEventListener("mouseover", () => {
 
         hoveredProject = true;
-        dropdown.style.display = "block";
+        dropdown.style.display = "flex";
 
     });
 
     dropdown.addEventListener("mouseover", () => {
 
         hoveredProject = true;
-        dropdown.style.display = "block";
+        dropdown.style.display = "flex";
 
     });
 
     dropdown.addEventListener("mouseout", () => {
 
         hoveredProject = false;
-        dropdown.style.display = "none";
+        dropdown.style.display = "flex";
 
     });
 
