@@ -33,31 +33,38 @@ document.addEventListener("DOMContentLoaded", async() => {
         .catch(error => {
             console.error('Error fetching projects:', error);
     });
-
-    homeButton.addEventListener("cick", () => {
-
-        window.location.href = "https://dukegumball.github.io/Duke-Portfolio";
-
-    })
     
     projectsButton.addEventListener("mouseover", () => {
 
         hoveredProject = true;
-        dropdown.style.display = "flex";
+        dropdown.style.display = "block";
 
     });
 
     dropdown.addEventListener("mouseover", () => {
 
         hoveredProject = true;
-        dropdown.style.display = "flex";
+        dropdown.style.display = "block";
 
     });
 
     dropdown.addEventListener("mouseout", () => {
 
         hoveredProject = false;
-        dropdown.style.display = "flex";
+        dropdown.style.display = "none";
+
+    });
+
+    document.addEventListener("mouseleave", () => {
+
+        hoveredProject = false;
+        dropdown.style.display = "none";
+
+    });
+
+    homeButton.addEventListener("click", () => {
+
+        window.location.href = "https://dukegumball.github.io/Duke-Portfolio";
 
     });
 

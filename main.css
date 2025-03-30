@@ -2,18 +2,17 @@
 
     position:absolute;
     display: flex;
-
-    height: 50px;
-    width: 100%;   
-    top: -5px;
-
+    background-color: transparent;
+    height: 25px;
+    top: 15%;
     -webkit-text-fill-color: rgb(255, 255, 255);
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: rgb(164, 181, 181);
     font-family: 'Clash Grotesk';    
     font-size: calc(.9 * 1em);
-    box-sizing: border-box;
     overflow: hidden;
+
+    border: 0px;
 
 }
 #Projects {
@@ -38,7 +37,7 @@
 
 #DropDown_Projects {
     position: absolute;
-    display: flex;
+    display: block;
     flex-direction: column; /* Stack children vertically */
     height: 1000%;
     width: 10%;
@@ -71,30 +70,9 @@
     border: 1px solid rgb(255, 0, 0);
     box-sizing: border-box;
     overflow: hidden;
-    text-overflow: ellipsis; /* Adds "..." if text overflows */
-    white-space: nowrap; /* Prevents text from wrapping to the next line */
     font-size: calc(1 * 1em);
 }
 
-/* 
-#BaseDropDown_Projects {
-
-    position: absolute;
-    display: flex;
-    
-
-    justify-content: center;
-    align-items: center;
-    -webkit-text-fill-color: rgb(0, 0, 0);
-    -webkit-text-stroke: 0;
-    font-family: 'Clash Grotesk';
-    font-size: calc(0.6 * 1em);
-    background-color: transparent;
-    border: 1px solid rgb(255, 0, 0);
-    box-sizing: border-box;
-    overflow: hidden;
-
-} */
 
 #MainBar {
 
