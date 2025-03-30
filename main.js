@@ -16,8 +16,16 @@ document.addEventListener("DOMContentLoaded", async() => {
             const projects = data.Projects;
 
             for (const project of projects) {
-                const projectLabel = document.createElement("div");
+                const projectLabel = document.createElement("button");
                 projectLabel.id = "BaseDropDown_Projects"
+                projectLabel.innerHTML = project.name;
+                dropdown.appendChild(projectLabel);
+
+                projectLabel.addEventListener("onclick", () => {
+                   
+                    window.location.href = project.url;
+
+                });
             }
 
         })

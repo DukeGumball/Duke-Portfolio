@@ -65,12 +65,13 @@
     height: 10%;
     width: 100%;
     font-family: 'Clash Grotesk';
-    font-size: calc(0.6 * 1em);
+    src: url('/fonts/clash-grotesk-regular.woff2') format('woff2'),
+         url('/fonts/clash-grotesk-regular.woff') format('woff');
     background-color: transparent;
     border: 1px solid rgb(255, 0, 0);
     box-sizing: border-box;
     overflow: hidden;
-    cursor: pointer; /* Adds a pointer cursor for buttons */
+    font-size: calc(1 * 1em);
 }
 
 /* 

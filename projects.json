@@ -1,12 +1,12 @@
 {
     "Projects": [
         {
-            "name": "RBX",
-            "url": "https://example.com/project1"
+            "name": "RBX - Games",
+            "url": "https://dukegumball.github.io/Duke-Portfolio/Roblox-Games"
         },
         {
-            "name": "Project 2",
-            "url": "https://example.com/project2"
+            "name": "RBX - Commission Work",
+            "url": "https://dukegumball.github.io/Duke-Portfolio/Roblox-Commission-Work"
         }
     ]
 }
