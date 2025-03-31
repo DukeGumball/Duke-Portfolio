@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", async() => {
     const projectsButton = document.querySelector("#Projects");
     const dropdown = document.querySelector("#DropDown_Projects");
     const homeButton = document.querySelector("#TitleBar")
+    const mainContent = document.querySelector("#MainContent")
 
     hoveredProject = false;
 
@@ -16,7 +17,6 @@ document.addEventListener("DOMContentLoaded", async() => {
         .then(data => {
             const projects = data.ProjectsTab;
             const showcases = data.Showcases;
-            const mainContent = data.MainContent;
 
             for (const project of projects) {
                 const projectLabel = document.createElement("button");
