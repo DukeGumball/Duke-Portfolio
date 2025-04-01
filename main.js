@@ -1,6 +1,6 @@
 
 
-document.addEventListener("DOMContentLoaded", async() => {
+document.addEventListener("DOMContentLoaded", async () => {
     const projectsButton = document.querySelector("#Projects");
     const dropdown = document.querySelector("#DropDown_Projects");
     const homeButton = document.querySelector("#TitleBar")
@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", async() => {
         })
         .then(data => {
             const projects = data.ProjectsTab;
+            const showcases = data.Showcases;
 
             for (const project of projects) {
                 const projectLabel = document.createElement("button");
@@ -23,17 +24,31 @@ document.addEventListener("DOMContentLoaded", async() => {
                 dropdown.appendChild(projectLabel);
 
                 projectLabel.addEventListener("click", () => {
-                   
+
                     window.location.href = project.url;
 
                 });
+
             }
 
-        })
+            for (const showcase of showcases) {
+                
+                const showcaseLabel = document.createElement("div");
+                showcaseLabel.id = "ProjectContent";
+                
+                const titleTag = document.createElement("h2");
+                titleTag.id = "titleTag"
+                titleTag.innerHTML = showcase.name;
+                showcaseLabel.appendChild(titleTag);
+                mainContent.appendChild(showcaseLabel);
+
+            }
+
+            })
         .catch(error => {
             console.error('Error fetching projects:', error);
-    });
-    
+        });
+
     projectsButton.addEventListener("mouseover", () => {
 
         hoveredProject = true;
