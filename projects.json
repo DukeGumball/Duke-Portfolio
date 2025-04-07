@@ -13,8 +13,8 @@
     "Showcases": [
         {
             "name": "Title Showcase",
-            "About": "",
-            "MainImage": "",
+            "About": "Title Cool",
+            "MainImage": "Images/QOB_3.png", 
             "ComponentsList": ["Attack", "Movement", "Inventory"],
             "videos": ["",""],
             "showcaselink": ""

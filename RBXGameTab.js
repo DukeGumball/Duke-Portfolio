@@ -35,9 +35,21 @@ document.addEventListener("DOMContentLoaded", async() => {
                 const showcaseLabel = document.createElement("div");
                 showcaseLabel.id = "showcaseLabel";
                 const titleTag = document.createElement("h2");
+                const aboutTag = document.createElement("p");
+                const mainImage = document.createElement("img");
+
                 titleTag.id = "titleTag"
                 titleTag.innerHTML = showcase.name;
+                aboutTag.id = "aboutTag";
+                aboutTag.innerHTML = showcase.About;
+                mainImage.src = showcase.MainImage;
+                mainImage.id = "ProjectImage";
+
+                
                 showcaseLabel.appendChild(titleTag);
+                showcaseLabel.appendChild(aboutTag);
+                showcaseLabel.appendChild(mainImage);
+
                 mainContent.appendChild(showcaseLabel);
 
             }

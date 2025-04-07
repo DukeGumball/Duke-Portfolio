@@ -109,3 +109,12 @@ body {
     z-index: 10;
     margin: 5px;
 }
+
+#ProjectImage {
+    position: relative;
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px; 
+}
