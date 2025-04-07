@@ -59,10 +59,12 @@ body {
     font-size: calc(0.6 * 1em);
     background-color: transparent;
     border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 5;
 
 }
 
@@ -117,4 +119,10 @@ body {
     height: auto;
     margin: 0 auto;
     border-radius: 10px; 
+}
+
+#showcaseLabel {
+
+    background-color: rgb(255, 255, 255);
+
 }
