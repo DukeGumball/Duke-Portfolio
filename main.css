@@ -124,5 +124,17 @@ body {
 #showcaseLabel {
 
     background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+
+}
+
+#videoShowcase {
+
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    
 
 }
