@@ -138,3 +138,12 @@ body {
     
 
 }
+
+#videoBox {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}

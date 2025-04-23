@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", async() => {
                 const mainImage = document.createElement("img");
                 const aboutLabel = document.createElement("h3");
                 const videoBox = document.createElement("div");
+                const breakElement = document.createElement("br");
 
                 titleTag.id = "titleTag"
                 titleTag.innerHTML = showcase.name;
@@ -56,6 +57,7 @@ document.addEventListener("DOMContentLoaded", async() => {
                 showcaseLabel.appendChild(aboutTag);
                 showcaseLabel.appendChild(mainImage);
                 mainContent.appendChild(showcaseLabel);
+                showcaseLabel.appendChild(breakElement);
                 showcaseLabel.appendChild(videoBox);
 
                 for (const video of showcase.videos) {
