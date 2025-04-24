@@ -219,17 +219,17 @@ body {
     list-style: disc;
     font-size: calc(1em);
     font-family: Arial, Helvetica, sans-serif;
-    text-indent: 10%;
+    text-indent: 5px;
 
 }
 
 #titleText {
 
-    text-indent: 1%;
+    text-indent: 1px;
 
 }
 
 #DescText {
 
-    text-indent: 5%;
+    text-indent: 5px;
 }
