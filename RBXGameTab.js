@@ -22,7 +22,6 @@ function loadVideo(url, videoBox) {
         imageLabel.id = "urlShowcase"; 
         videoBox.appendChild(imageLabel); 
     }
-
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
