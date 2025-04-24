@@ -1,6 +1,6 @@
 
 
-document.addEventListener("DOMContentLoaded", async() => {
+document.addEventListener("DOMContentLoaded", async () => {
     const projectsButton = document.querySelector("#Projects");
     const dropdown = document.querySelector("#DropDown_Projects");
     const homeButton = document.querySelector("#TitleBar")
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async() => {
                 dropdown.appendChild(projectLabel);
 
                 projectLabel.addEventListener("click", () => {
-                   
+
                     window.location.href = project.url;
 
                 });
@@ -40,6 +40,9 @@ document.addEventListener("DOMContentLoaded", async() => {
                 const aboutLabel = document.createElement("h3");
                 const videoBox = document.createElement("div");
                 const breakElement = document.createElement("br");
+                const breakElement2 = document.createElement("br");
+                const imageSlide = document.createElement("div");
+                const slider = document.createElement("div");
 
                 titleTag.id = "titleTag"
                 titleTag.innerHTML = showcase.name;
@@ -51,7 +54,9 @@ document.addEventListener("DOMContentLoaded", async() => {
                 aboutLabel.id = "aboutLabel";
                 aboutLabel.innerHTML = "About:"
                 videoBox.id = "videoBox";
-                
+                imageSlide.id = "imageSlide";
+                slider.id = "sliderBox";
+
                 showcaseLabel.appendChild(titleTag);
                 showcaseLabel.appendChild(aboutLabel);
                 showcaseLabel.appendChild(aboutTag);
@@ -59,10 +64,13 @@ document.addEventListener("DOMContentLoaded", async() => {
                 mainContent.appendChild(showcaseLabel);
                 showcaseLabel.appendChild(breakElement);
                 showcaseLabel.appendChild(videoBox);
+                showcaseLabel.appendChild(imageSlide);
+                showcaseLabel.appendChild(breakElement2);
+                imageSlide.appendChild(slider);
 
-                for (const video of showcase.videos) {
+                for (const media of showcase.media) {
                     if (video.includes("youtube.com")) {
-                        const videoId = video.split("v=")[1].split("&")[0]; 
+                        const videoId = video.split("v=")[1].split("&")[0];
                         const iframe = document.createElement("iframe");
                         iframe.src = `https://www.youtube.com/embed/${videoId}`;
                         iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
@@ -72,17 +80,30 @@ document.addEventListener("DOMContentLoaded", async() => {
                     } else if (video.endsWith(".mp4")) {
                         const videoLabel = document.createElement("video");
                         videoLabel.src = video;
-                        videoLabel.controls = true; 
+                        videoLabel.controls = true;
                         videoLabel.id = "videoShowcase";
                         videoBox.appendChild(videoLabel);
+                    } else if (video.endsWith(".jpg") || video.endsWith(".png") || video.endsWith(".jpeg")) {
+                        const imageLabel = document.createElement("img");
+                        imageLabel.src = video;
+                        imageLabel.id = "imageShowcase";
+                        slider.appendChild(imageLabel);
+                    } else if (video.endsWith(".gif")) {
+                        const gifLabel = document.createElement("img");
+                        gifLabel.src = video;
+                        gifLabel.id = "gifShowcase";
+                        slider.appendChild(gifLabel);
+                    } else {
+                        console.error("Unsupported media type:", media);
+
                     }
                 }
-            }
+            };
         })
         .catch(error => {
             console.error('Error fetching projects:', error);
-    });
-    
+        });
+
     projectsButton.addEventListener("mouseover", () => {
 
         hoveredProject = true;
