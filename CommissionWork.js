@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         })
         .then(data => {
             const projects = data.ProjectsTab;
-            const showcases = data.CommissionWork;
+            const CommissionWork = data.CommissionWork;
 
             for (const project of projects) {
                 const projectLabel = document.createElement("button");
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 });
             }
 
-            for (const showcase of showcases) {
+            for (const showcase of CommissionWork) {
                 const showcaseLabel = document.createElement("div");
                 showcaseLabel.id = "showcaseLabel";
                 const titleTag = document.createElement("h2");
