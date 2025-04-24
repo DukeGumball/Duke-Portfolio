@@ -212,3 +212,24 @@ body {
 
 
 }
+
+#bulletLabel {
+
+    margin-right: 10%;
+    list-style: disc;
+    font-size: calc(1em);
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10%;
+
+}
+
+#titleText {
+
+    text-indent: 1%;
+
+}
+
+#DescText {
+
+    text-indent: 5%;
+}

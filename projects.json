@@ -16,7 +16,33 @@
             "About": "Title Cool",
             "MainImage": "Images/QOB_3.png", 
             "ComponentsList": [
-                "Attack", 
+                "Attack",
+                "Movement", 
+                "Inventory"
+            ],
+            "media": [
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "Images/QOB_3.png",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo"
+
+            ],
+            "showcaselink": ""
+        },
+        {
+            "name": "Title Showcase",
+            "About": "Title Cool",
+            "MainImage": "Images/QOB_3.png", 
+            "ComponentsList": [
+                "Attack",
                 "Movement", 
                 "Inventory"
             ],

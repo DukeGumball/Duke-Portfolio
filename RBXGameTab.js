@@ -67,23 +67,26 @@ document.addEventListener("DOMContentLoaded", async () => {
                 const titleTag = document.createElement("h2");
                 const aboutTag = document.createElement("p");
                 const mainImage = document.createElement("img");
-                const aboutLabel = document.createElement("h3");
+                const aboutLabel = document.createElement("h2");
                 const breakElement = document.createElement("br");
                 const breakElement2 = document.createElement("br");
                 const imageSlide = document.createElement("div");
                 const fitImage = document.createElement("div");
+                const components = document.createElement("h2");
 
                 titleTag.id = "titleTag"
                 titleTag.innerHTML = showcase.name;
                 titleTag.style.textAlign = "center";
-                aboutTag.id = "aboutTag";
+                aboutTag.id = "DescText";
                 aboutTag.innerHTML = showcase.About;
                 mainImage.src = showcase.MainImage;
                 mainImage.id = "ProjectImage";
-                aboutLabel.id = "aboutLabel";
+                aboutLabel.id = "titleText";
                 aboutLabel.innerHTML = "About:"
                 imageSlide.id = "imageSlide";
                 fitImage.id = "fitFrame";
+                components.innerHTML = "Components:";
+                components.id = "titleText"
 
                 showcaseLabel.appendChild(titleTag);
                 showcaseLabel.appendChild(aboutLabel);
@@ -96,6 +99,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                 const mediaAmount = showcase.media.length;
                 const range = 25 * mediaAmount;
                 const per = (2 * range) / (mediaAmount - 1);
+                const componentAmount = showcase.ComponentsList.length;
+
 
                 loadVideo(showcase.media[0], fitImage);
 
@@ -125,6 +130,23 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                     });
                 }
+
+                showcaseLabel.appendChild(components);
+
+                for (let x = 0; x < componentAmount; x++) { 
+
+                    const currentBullet = showcase.ComponentsList[x]
+                    const bulletLabel = document.createElement("li");
+                    bulletLabel.id = "bulletLabel";
+                    bulletLabel.innerHTML = currentBullet;
+
+                    showcaseLabel.appendChild(bulletLabel);
+                    
+
+                }  
+
+                showcaseLabel.appendChild(breakElement);
+
 
             };
         })
