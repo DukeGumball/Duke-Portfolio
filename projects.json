@@ -1,19 +1,19 @@
 {
     "ProjectsTab": [
         {
-            "name": "RBX - Games",
+            "name": "RBX Projects",
             "url": "https://dukegumball.github.io/Duke-Portfolio/Roblox-Games"
         },
         {
-            "name": "RBX - Commission Work",
+            "name": "RBX Commission Work",
             "url": "https://dukegumball.github.io/Duke-Portfolio/Roblox-Commission-Work"
         }
     ],
     
     "Showcases": [
         {
-            "name": "Title Showcase",
-            "About": "Title Cool",
+            "name": "Showcase #1: Quest of Banana (RPG Version)",
+            "About": "This game is an solo RPG game I've been developing for a while; however, it has been cancelled recently. ",
             "MainImage": "Images/QOB_3.png", 
             "ComponentsList": [
                 "Attack",
@@ -22,43 +22,24 @@
             ],
             "media": [
                 "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "Images/QOB_3.png",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo"
+                "https://www.youtube.com/watch?v=oTGFoaOrcC0&embeds_referring_euri=https%3A%2F%2Fsites.google.com%2F&source_ve_path=Mjg2NjY",
+                "Images/QOB_3.png"
 
             ],
             "showcaselink": ""
         },
         {
-            "name": "Title Showcase",
-            "About": "Title Cool",
-            "MainImage": "Images/QOB_3.png", 
+            "name": "Showcase #2: Big Brain Returns!",
+            "About": "Second version of the big brain boss, and it includes parkour, extended boss fight, catapult, dialog, etc. I recommend you play this game",
+            "MainImage": "Images/Bigbrainreturns2.png", 
             "ComponentsList": [
                 "Attack",
                 "Movement", 
                 "Inventory"
             ],
             "media": [
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "Images/QOB_3.png",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo"
+                "Images/Bigbrainreturns2.png", 
+                "Images/BigBrainReturns3.png"
 
             ],
             "showcaselink": ""

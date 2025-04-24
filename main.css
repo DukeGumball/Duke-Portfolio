@@ -224,11 +224,11 @@ body {
 
 #titleText {
 
-    text-indent: 1px;
+    margin-left: 5px;
 
 }
 
 #DescText {
 
-    text-indent: 5px;
+    margin-left: 20px;
 }
