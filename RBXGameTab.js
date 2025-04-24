@@ -113,17 +113,14 @@ document.addEventListener("DOMContentLoaded", async () => {
                         const newVideo = loadVideo(url, fitImage);
 
                         urlShowcase.style.transform = "translateX(-400px)";
-
                         newVideo.style.transition = "none";
                         newVideo.style.transform = "translateX(400px)";
-
-                     
 
                         setTimeout(() => {
                             urlShowcase.remove();
                             newVideo.style.transition = "transform 0.5s ease, opacity 0.5s ease";
                             newVideo.style.transform = "translateX(0px)";
-                        }, 500);
+                        }, 600);
 
 
                     });
