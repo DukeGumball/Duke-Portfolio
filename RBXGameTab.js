@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                 const aboutTag = document.createElement("p");
                 const mainImage = document.createElement("img");
                 const aboutLabel = document.createElement("h3");
-                const videoBox = document.createElement("div");
                 const breakElement = document.createElement("br");
                 const breakElement2 = document.createElement("br");
                 const imageSlide = document.createElement("div");
@@ -53,7 +52,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                 mainImage.id = "ProjectImage";
                 aboutLabel.id = "aboutLabel";
                 aboutLabel.innerHTML = "About:"
-                videoBox.id = "videoBox";
                 imageSlide.id = "imageSlide";
                 slider.id = "sliderBox";
 
@@ -63,41 +61,23 @@ document.addEventListener("DOMContentLoaded", async () => {
                 showcaseLabel.appendChild(mainImage);
                 mainContent.appendChild(showcaseLabel);
                 showcaseLabel.appendChild(breakElement);
-                showcaseLabel.appendChild(videoBox);
                 showcaseLabel.appendChild(imageSlide);
                 showcaseLabel.appendChild(breakElement2);
                 imageSlide.appendChild(slider);
 
-                for (const media of showcase.media) {
-                    if (video.includes("youtube.com")) {
-                        const videoId = video.split("v=")[1].split("&")[0];
-                        const iframe = document.createElement("iframe");
-                        iframe.src = `https://www.youtube.com/embed/${videoId}`;
-                        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-                        iframe.allowFullscreen = true;
-                        iframe.id = "videoShowcase";
-                        videoBox.appendChild(iframe);
-                    } else if (video.endsWith(".mp4")) {
-                        const videoLabel = document.createElement("video");
-                        videoLabel.src = video;
-                        videoLabel.controls = true;
-                        videoLabel.id = "videoShowcase";
-                        videoBox.appendChild(videoLabel);
-                    } else if (video.endsWith(".jpg") || video.endsWith(".png") || video.endsWith(".jpeg")) {
-                        const imageLabel = document.createElement("img");
-                        imageLabel.src = video;
-                        imageLabel.id = "imageShowcase";
-                        slider.appendChild(imageLabel);
-                    } else if (video.endsWith(".gif")) {
-                        const gifLabel = document.createElement("img");
-                        gifLabel.src = video;
-                        gifLabel.id = "gifShowcase";
-                        slider.appendChild(gifLabel);
-                    } else {
-                        console.error("Unsupported media type:", media);
+                const mediaAmount = showcase.media.length;
+                const range = 50 * mediaAmount;
+                const per = (2 * range) / (mediaAmount-1); 
 
-                    }
+                for (let i = 0; i < mediaAmount; i++) {
+                    const block = document.createElement("button");
+                    block.id = "squares"; 
+
+                    block.style.marginRight = -range + per * i + "px";
+
+                    imageSlide.appendChild(block);
                 }
+
             };
         })
         .catch(error => {
