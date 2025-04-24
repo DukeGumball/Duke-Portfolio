@@ -1,4 +1,29 @@
+function loadVideo(url, videoBox) {
 
+    if (url.includes("youtube.com")) {
+        const videoId = url.split("v=")[1].split("&")[0]; 
+        const iframe = document.createElement("iframe"); 
+        iframe.src = `https://www.youtube.com/embed/${videoId}`; 
+        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"; // Allow specific iframe features
+        iframe.allowFullscreen = true; 
+        iframe.id = "urlShowcase"; 
+        videoBox.appendChild(iframe);
+    } 
+    else if (url.endsWith(".mp4")) {
+        const videoLabel = document.createElement("video"); 
+        videoLabel.src = url; 
+        videoLabel.controls = true;
+        videoLabel.id = "urlShowcase"; 
+        videoBox.appendChild(videoLabel); 
+    }
+    else if (url.endsWith(".png") || url.endsWith(".jpg") || url.endsWith(".jpeg")) {
+        const imageLabel = document.createElement("img"); 
+        imageLabel.src = url; 
+        imageLabel.id = "urlShowcase"; 
+        videoBox.appendChild(imageLabel); 
+    }
+
+}
 
 document.addEventListener("DOMContentLoaded", async () => {
     const projectsButton = document.querySelector("#Projects");
@@ -68,6 +93,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                 const mediaAmount = showcase.media.length;
                 const range = 50 * mediaAmount;
                 const per = (2 * range) / (mediaAmount-1); 
+
+                loadVideo(showcase.mainImage, slider)
 
                 for (let i = 0; i < mediaAmount; i++) {
                     const block = document.createElement("button");
