@@ -114,11 +114,15 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                     block.addEventListener("click", () => {
                         const url = showcase.media[i];
-                        const urlShowcase = document.querySelector("#urlShowcase");
+                        const urlShowcase = showcaseLabel.querySelector("#urlShowcase");
+
                         const width = urlShowcase.offsetWidth;
+
                         const newVideo = loadVideo(url, fitImage);
-                        newVideo.style.opacity = 0;
+
                         urlShowcase.style.transform = `translateX(${-width}px)`;
+
+                        newVideo.style.opacity = 0;
                         newVideo.style.transition = "none";
                         newVideo.style.transform = `translateX(${width}px)`;
                         setTimeout(() => {
@@ -130,6 +134,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 
                     });
+
+                   
                 }
 
                 showcaseLabel.appendChild(components);
