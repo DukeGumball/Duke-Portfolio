@@ -1,26 +1,32 @@
-function loadVideo(url, videoBox) {
+function loadVideo(url, slider) {
 
     if (url.includes("youtube.com")) {
-        const videoId = url.split("v=")[1].split("&")[0]; 
-        const iframe = document.createElement("iframe"); 
-        iframe.src = `https://www.youtube.com/embed/${videoId}`; 
-        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"; // Allow specific iframe features
-        iframe.allowFullscreen = true; 
-        iframe.id = "urlShowcase"; 
-        videoBox.appendChild(iframe);
-    } 
+        const videoId = url.split("v=")[1].split("&")[0];
+        const iframe = document.createElement("iframe");
+        iframe.src = `https://www.youtube.com/embed/${videoId}?cc_load_policy=1&fs=1&modestbranding=1&rel=0`; // Enable captions, fullscreen, and disable related videos
+        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"; // Explicitly allow fullscreen
+        iframe.setAttribute("allowfullscreen", "true"); // Ensure fullscreen is enabled
+        iframe.id = "urlShowcase";
+        slider.appendChild(iframe);
+
+        return iframe;
+    }
     else if (url.endsWith(".mp4")) {
-        const videoLabel = document.createElement("video"); 
-        videoLabel.src = url; 
+        const videoLabel = document.createElement("video");
+        videoLabel.src = url;
         videoLabel.controls = true;
-        videoLabel.id = "urlShowcase"; 
-        videoBox.appendChild(videoLabel); 
+        videoLabel.id = "urlShowcase";
+        slider.appendChild(videoLabel);
+
+        return videoLabel;
     }
     else if (url.endsWith(".png") || url.endsWith(".jpg") || url.endsWith(".jpeg")) {
-        const imageLabel = document.createElement("img"); 
-        imageLabel.src = url; 
-        imageLabel.id = "urlShowcase"; 
-        videoBox.appendChild(imageLabel); 
+        const imageLabel = document.createElement("img");
+        imageLabel.src = url;
+        imageLabel.id = "urlShowcase";
+        slider.appendChild(imageLabel);
+
+        return imageLabel;
     }
 }
 
@@ -65,7 +71,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 const breakElement = document.createElement("br");
                 const breakElement2 = document.createElement("br");
                 const imageSlide = document.createElement("div");
-                const slider = document.createElement("div");
+                const fitImage = document.createElement("div");
 
                 titleTag.id = "titleTag"
                 titleTag.innerHTML = showcase.name;
@@ -77,31 +83,50 @@ document.addEventListener("DOMContentLoaded", async () => {
                 aboutLabel.id = "aboutLabel";
                 aboutLabel.innerHTML = "About:"
                 imageSlide.id = "imageSlide";
-                slider.id = "sliderBox";
+                fitImage.id = "fitFrame";
 
                 showcaseLabel.appendChild(titleTag);
                 showcaseLabel.appendChild(aboutLabel);
                 showcaseLabel.appendChild(aboutTag);
                 showcaseLabel.appendChild(mainImage);
                 mainContent.appendChild(showcaseLabel);
-                showcaseLabel.appendChild(breakElement);
                 showcaseLabel.appendChild(imageSlide);
-                showcaseLabel.appendChild(breakElement2);
-                imageSlide.appendChild(slider);
+                imageSlide.appendChild(fitImage);
 
                 const mediaAmount = showcase.media.length;
-                const range = 50 * mediaAmount;
-                const per = (2 * range) / (mediaAmount-1); 
+                const range = 25 * mediaAmount;
+                const per = (2 * range) / (mediaAmount - 1);
 
-                loadVideo(showcase.mainImage, slider)
+                loadVideo(showcase.media[0], fitImage);
 
                 for (let i = 0; i < mediaAmount; i++) {
                     const block = document.createElement("button");
-                    block.id = "squares"; 
+                    block.id = "squares";
 
                     block.style.marginRight = -range + per * i + "px";
 
                     imageSlide.appendChild(block);
+
+                    block.addEventListener("click", () => {
+                        const url = showcase.media[i];
+                        const urlShowcase = document.querySelector("#urlShowcase");
+                        const newVideo = loadVideo(url, fitImage);
+
+                        urlShowcase.style.transform = "translateX(-400px)";
+
+                        newVideo.style.transition = "none";
+                        newVideo.style.transform = "translateX(400px)";
+
+                     
+
+                        setTimeout(() => {
+                            urlShowcase.remove();
+                            newVideo.style.transition = "transform 0.5s ease, opacity 0.5s ease";
+                            newVideo.style.transform = "translateX(0px)";
+                        }, 500);
+
+
+                    });
                 }
 
             };

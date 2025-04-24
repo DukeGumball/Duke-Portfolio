@@ -1,12 +1,12 @@
 body {
 
     background-color: rgb(208, 175, 175);
-    
+
 }
 
 #TitleBar {
 
-    position:absolute;
+    position: absolute;
     background-color: transparent;
     -webkit-text-fill-color: rgb(255, 255, 255);
     -webkit-text-stroke-width: 1px;
@@ -17,14 +17,15 @@ body {
     overflow: hidden;
     border: 0px;
     height: 50px;
-    top: calc(var(--mainbarheight) / 2 - 50px/2 );
-    margin: 0 auto; /* Center horizontally within its container */
+    top: calc(var(--mainbarheight) / 2 - 50px/2);
+    margin: 0 auto;
 
 }
+
 #Projects {
     position: absolute;
     display: flex;
-    
+
     height: 100%;
     width: 10%;
     left: 15%;
@@ -42,14 +43,14 @@ body {
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 5px;
-    margin: 0 auto; /* Center horizontally within its container */
+    margin: 0 auto;
 
 }
 
 #DropDown_Projects {
     position: absolute;
     display: none;
-    flex-direction: column; 
+    flex-direction: column;
     height: 1000%;
     width: 10%;
     left: 15%;
@@ -68,7 +69,7 @@ body {
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 5;
-    margin: 0 auto; /* Center horizontally within its container */
+    margin: 0 auto;
 
 }
 
@@ -86,7 +87,7 @@ body {
     overflow: hidden;
     font-size: calc(1 * 1em);
     border-radius: 5px;
-    margin: 0 auto; /* Center horizontally within its container */
+    margin: 0 auto;
 
 }
 
@@ -95,22 +96,22 @@ body {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px;
-    -webkit-text-fill-color: rgb(0, 0, 0); 
+    -webkit-text-fill-color: rgb(0, 0, 0);
     font-weight: 700;
-    margin: 0 auto; /* Center horizontally within its container */
+    margin: 0 auto;
 
 }
 
 #MainBar {
 
-    position:absolute;
-    --mainbarheight : 40px;
+    position: absolute;
+    --mainbarheight: 40px;
     height: var(--mainbarheight);
     width: 100%;
     left: 0;
-    top:0;
+    top: 0;
     background-color: gray;
-    margin: 0 auto; /* Center horizontally within its container */
+    margin: 0 auto;
 
 }
 
@@ -118,8 +119,8 @@ body {
 
     background-color: rgb(255, 255, 255);
     z-index: 10;
-    margin: 0 auto; /* Center horizontally within its container */
-    
+    margin: 0 auto;
+
 }
 
 #ProjectImage {
@@ -128,8 +129,7 @@ body {
     max-width: 80%;
     height: auto;
     margin: 0 auto;
-    border-radius: 10px; 
-    margin: 0 auto; /* Center horizontally within its container */
+    margin: 0 auto;
 
 }
 
@@ -137,60 +137,31 @@ body {
 
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    margin: 0 auto; /* Center horizontally within its container */
+    margin: 0 auto;
 
 
 }
 
-#videoShowcase {
-
-    height: 100px;
-    width: 100px;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-
-#videoBox {
-
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    
-
-}
 
 #imageSlide {
 
-    --mainBox : 350px;
+    --mainBox: 250px;
 
     position: relative;
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     align-items: center;
     height: var(--mainBox);
     width: 90%;
-    background-color: rgb(202, 183, 183);
-    margin: 0 auto; 
+    background-color: rgb(202, 183, 183, 0);
+    margin: 0 auto;
     border-radius: 10px;
-    border-color: rgb(0, 0, 0, 0.3);
+    border-color: rgb(0, 0, 0, 0);
     border-style: solid;
     border-width: 0.25;
     box-sizing: border-box;
 
-}
-
-#sliderBox {
-
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 228, 187);
-
-    width: 300px;
-    height: 300px;
+    
 
 }
 
@@ -199,27 +170,45 @@ body {
     position: absolute;
     display: flex;
     background-color: rgb(255, 255, 255, 0.3);
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
 
-    border-radius: 10px;
+    border-radius: 100px;
     border-color: rgb(0, 0, 0, 0.3);
     border-style: solid;
     border-width: 0.25;
-    
 
-    bottom: 50px;
+    bottom: 0;
+}
+
+#fitFrame {
+
+    position: absolute;
+    display: flex;
+    width: 75%;
+    height: 75%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 0.25;
+    box-sizing: border-box;
+    margin: 0 auto;
+    outline: 5px solid rgb(0,0,0,0.25); /* Add a stroke (outline) */
+    overflow: hidden;
+
 }
 
 #urlShowcase {
-    
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(255, 255, 255);
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-        margin: 0 auto; 
+
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto; 
+    border-radius: 10px;
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+
+
 }
