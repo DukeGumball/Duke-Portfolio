@@ -115,16 +115,17 @@ document.addEventListener("DOMContentLoaded", async () => {
                     block.addEventListener("click", () => {
                         const url = showcase.media[i];
                         const urlShowcase = document.querySelector("#urlShowcase");
+                        const width = urlShowcase.offsetWidth;
                         const newVideo = loadVideo(url, fitImage);
-
-                        urlShowcase.style.transform = "translateX(-400px)";
+                        newVideo.style.opacity = 0;
+                        urlShowcase.style.transform = `translateX(${-width}px)`;
                         newVideo.style.transition = "none";
-                        newVideo.style.transform = "translateX(400px)";
-
+                        newVideo.style.transform = `translateX(${width}px)`;
                         setTimeout(() => {
                             urlShowcase.remove();
                             newVideo.style.transition = "transform 0.5s ease, opacity 0.5s ease";
                             newVideo.style.transform = "translateX(0px)";
+                            newVideo.style.opacity = 1;
                         }, 600);
 
 
