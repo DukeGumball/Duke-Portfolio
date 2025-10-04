@@ -129,16 +129,6 @@ body {
 
 }
 
-#showcaseLabel {
-
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    margin: 0 auto;
-
-
-}
-
-
 #imageSlide {
 
     --mainBox: 250px;
@@ -211,25 +201,35 @@ body {
 }
 
 #bulletLabel {
-    margin-right: 10%;
-    list-style: disc;
-    font-size: calc(1em);
-    font-family: Arial, Helvetica, sans-serif;
-    text-indent: 0;
-    /* Set to 0 to align bullets properly */
-    margin-left: 20px;
-    /* Optional: Add left margin for spacing */
+    
+ list-style-position: outside;  
+  padding-left: 0;             
+  margin: 0 auto;               
+  width: fit-content;  
 }
+
+#showcaseLabel {
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center; 
+
+}
+
 
 #titleText {
 
-    margin-left: 5px;
-
+    margin: 2rem 0;
+    text-align: center;
 }
 
 #DescText {
 
-    margin-left: 20px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #3a4a4a;
+    text-align: center;
 }
 
 /* Nav links on the right */
