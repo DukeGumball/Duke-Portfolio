@@ -65,18 +65,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(font-size * 1em);
+    height: 44px;                      /* Consistent option height */
+    min-width: 220px;                  /* Minimum width for readability */
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    border: 1px solid rgb(0, 0, 0);
+    font-size: 1.6em;
+    border: none;                      /* Remove default border */
     box-sizing: border-box;
     overflow: hidden;
-    font-size: calc(2 * 1em);
-    border-radius: 5px;
-    margin: 0 auto;
-
+    border-radius: 8px;                /* More rounded corners */
+    margin: 0.18em 0;                  /* Space between options */
+    background: #f6f8fa;               /* Light background */
+    color: #222;
+    cursor: pointer;
+    transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+    box-shadow: 0 1px 4px rgba(60,60,60,0.06);
 }
+
+#BaseDropDown_Projects:hover {
+    background: #e9f2ff;
+    color: #3a86ff;
+    box-shadow: 0 2px 8px rgba(60,60,60,0.09);
+}
+
 
 #PageTitle {
 
@@ -196,6 +208,7 @@ body {
     margin: auto;
     border-radius: 10px;
     transition: transform 0.5s ease, opacity 0.5s ease;
+
 
 }
 
