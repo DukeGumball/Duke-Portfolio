@@ -63,6 +63,12 @@ document.addEventListener("DOMContentLoaded", async() => {
         dropdown.style.display = "none";
 
     });
+    
+    mainContent.addEventListener("mouseover", () => {
+
+        dropdown.style.display = "none";
+                    
+    });
 
     homeButton.addEventListener("click", () => {
 
