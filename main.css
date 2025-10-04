@@ -22,7 +22,7 @@ body {
 
 #Projects {
     display: flex;
-    
+
     justify-content: center;
     align-items: center;
     -webkit-text-fill-color: rgb(0, 0, 0);
@@ -79,7 +79,7 @@ body {
 }
 
 #PageTitle {
-    
+
     font-family: system-ui;
     text-align: center;
     font-size: 40px;
@@ -92,7 +92,7 @@ body {
 
 #MainBar {
 
-    box-sizing: border-box; 
+    box-sizing: border-box;
     display: flex;
     position: absolute;
     --mainbarheight: 60px;
@@ -107,7 +107,8 @@ body {
 }
 
 #MainBar nav {
-    margin-left: auto; /* push nav to the far right */
+    margin-left: auto;
+    /* push nav to the far right */
 }
 
 #ProjectContent {
@@ -156,7 +157,7 @@ body {
     border-width: 0.25;
     box-sizing: border-box;
 
-    
+
 
 }
 
@@ -189,7 +190,8 @@ body {
     border-width: 0.25;
     box-sizing: border-box;
     margin: 0 auto;
-    outline: 5px solid rgb(0,0,0,0.25); /* Add a stroke (outline) */
+    outline: 5px solid rgb(0, 0, 0, 0.25);
+    /* Add a stroke (outline) */
     overflow: hidden;
 
 }
@@ -201,9 +203,9 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    margin: auto; 
+    margin: auto;
     border-radius: 10px;
-    transition: transform 0.5s ease, opacity 0.5s ease; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
 
 
 }
@@ -213,8 +215,10 @@ body {
     list-style: disc;
     font-size: calc(1em);
     font-family: Arial, Helvetica, sans-serif;
-    text-indent: 0; /* Set to 0 to align bullets properly */
-    margin-left: 20px; /* Optional: Add left margin for spacing */
+    text-indent: 0;
+    /* Set to 0 to align bullets properly */
+    margin-left: 20px;
+    /* Optional: Add left margin for spacing */
 }
 
 #titleText {
@@ -236,6 +240,7 @@ body {
     margin: 5px;
     padding: 0;
 }
+
 #nav-links a {
     text-decoration: none;
     color: var(--muted);
@@ -246,163 +251,234 @@ body {
 }
 
 @media (max-width: 700px) {
-    :root { --bar-height: 56px; }
-    #MainBar { padding: 0 12px; }
-    body { padding-top: var(--bar-height); }
-    #nav-links { gap: 10px; flex-wrap: wrap; }
+    :root {
+        --bar-height: 56px;
+    }
+
+    #MainBar {
+        padding: 0 12px;
+    }
+
+    body {
+        padding-top: var(--bar-height);
+    }
+
+    #nav-links {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
 }
 
-.hero {
+#hero {
 
-  padding: 2rem 2rem 2rem;
-  text-align: center;
-  -webkit-text-fill-color: #4b837a;
-}
-
-.hero-content h1 {
-  font-size: 2.6rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  letter-spacing: 1px;
+    padding: 2rem 2rem 2rem;
+    text-align: center;
+    -webkit-text-fill-color: #4b837a;
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 body {
-  font-family: 'Segoe UI', 'Inter', Arial, sans-serif;
-  color: #2d3a3a;
-  background: #f6faf9;
-  margin: 0;
-  line-height: 1.6;
+    font-family: 'Segoe UI', 'Inter', Arial, sans-serif;
+    color: #2d3a3a;
+    background: #f6faf9;
+    margin: 0;
+    line-height: 1.6;
 }
 
 /* Images ?*/
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 /* ...other CSS... */
 
 /* Cooler Image Showcase Section */
 .showcase {
-  max-width: 1080px;
-  margin: 5rem auto;
-  padding: 0 2rem;
-  text-align: center;
+    max-width: 1080px;
+    margin: 5rem auto;
+    padding: 0 2rem;
+    text-align: center;
 }
 
 .showcase h2 {
-  font-size: 2.3rem;
-  margin-bottom: 2.5rem;
-  color: #186a5e;
-  letter-spacing: 1px;
+    font-size: 2.3rem;
+    margin-bottom: 2.5rem;
+    color: #186a5e;
+    letter-spacing: 1px;
 }
 
 .showcase-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
-  justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    justify-items: center;
 }
 
 .showcase-item {
-  width: 100%;
-  max-width: 340px;
-  aspect-ratio: 1 / 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 100%;
+    max-width: 340px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .showcase-img-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  border-radius: 1.2rem;
-  box-shadow: 0 8px 32px rgba(30,94,214,0.07);
-  border: none;
-  cursor: pointer;
-  transition: box-shadow 0.3s;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 1.2rem;
+    box-shadow: 0 8px 32px rgba(30, 94, 214, 0.07);
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
 }
 
 .showcase-img-container:hover {
-  box-shadow: 0 16px 40px rgba(30,94,214,0.15);
+    box-shadow: 0 16px 40px rgba(30, 94, 214, 0.15);
 }
 
 .showcase-img-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.35s cubic-bezier(0.4, 0.8, 0.4, 1), filter 0.3s;
-  filter: brightness(0.95) contrast(1.05);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.35s cubic-bezier(0.4, 0.8, 0.4, 1), filter 0.3s;
+    filter: brightness(0.95) contrast(1.05);
 }
 
 .showcase-img-container:hover img {
-  transform: scale(1.12);
-  filter: brightness(1.1) contrast(1.1);
+    transform: scale(1.12);
+    filter: brightness(1.1) contrast(1.1);
 }
 
 .showcase-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 40%;
-  background: linear-gradient(0deg, rgba(30,94,214,0.70) 0%, rgba(30,94,214,0.0) 100%);
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.3s;
-  border-radius: 0 0 1.2rem 1.2rem;
-  padding-bottom: 1.1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
+    background: linear-gradient(0deg, rgba(30, 94, 214, 0.70) 0%, rgba(30, 94, 214, 0.0) 100%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 0 0 1.2rem 1.2rem;
+    padding-bottom: 1.1rem;
 }
 
 .showcase-img-container:hover .showcase-overlay {
-  opacity: 1;
+    opacity: 1;
 }
 
 .showcase-title {
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 700;
-  letter-spacing: 0.7px;
-  text-shadow: 0 2px 6px rgba(30,94,214,0.15);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-shadow: 0 2px 6px rgba(30, 94, 214, 0.15);
 }
 
 @media (max-width: 900px) {
-  .showcase-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
+    .showcase-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
 }
 
 @media (max-width: 600px) {
-  .showcase-grid {
-    grid-template-columns: 1fr;
-    gap: 1.2rem;
-  }
-  .showcase-item {
-    max-width: 100%;
-    aspect-ratio: 1.2 / 1;
-  }
+    .showcase-grid {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+    .showcase-item {
+        max-width: 100%;
+        aspect-ratio: 1.2 / 1;
+    }
 }
 
 /* About Section */
 
 .About {
-  max-width: 1080px;
-  margin: 5rem auto;
+    max-width: 1080px;
+    margin: 5rem auto;
+    padding: 0 2rem;
+    text-align: center;
 }
 
 .About h2 {
-  font-size: 2.3rem;
-  color: #186a5e;
-  letter-spacing: 1px;
+    font-size: 2.3rem;
+    color: #186a5e;
+    letter-spacing: 1px;
+
 }
 
 .About p {
-  font-size: 1.1rem;
-  max-width: 720px;
-  line-height: 1.8;
-  color: #3a4a4a;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #3a4a4a;
+    text-align: center;
+
+}
+
+/* Contact Section */
+
+.contact-mini {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 2rem 0 1.5rem 0;
+  text-align: center;
+}
+
+.contact-mini h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #3a86ff;
+  font-weight: 600;
+}
+
+.contact-mini-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  background: #f9f9f9;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+}
+
+.contact-link:hover {
+  color: #3a86ff;
+  background: #e9f2ff;
+}
+
+.contact-icon {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+  .contact-mini-row {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
 }
