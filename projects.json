@@ -143,17 +143,20 @@
         {
             "name": "Showcase #4: Cartride Game",
             "About": "Made for clients and for templates. Classic type of genre on roblox, where you ride a cart to the finish line, and beware of other players. ",
-            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
+            "MainImage": "Images/CartRide/Image1.png",
             "ComponentsList": [
-                "Easy Template to make over 7+ Games",
+                "Easy Template to make over 4+ Games",
                 "Advanced monetization System",
+                "Advanced Cart System",
                 "Advanced Reward System for people playing the game, extending Monetization"
             ],
             "media": [
-                "Images/TrollTower/TrollTower.mp4",
-                "Images/TrollTower/Image1.png",
-                "Images/TrollTower/Image2.png",
-                "Images/TrollTower/Image3.png"
+                "Images/CartRide/Image2.png",
+                "Images/CartRide/Image1.png",
+                "Images/CartRide/Image3.png",
+                "Images/CartRide/Image4.png",
+                "Images/CartRide/GlassBridge.mp4"
+
             ],
             "showcaselink": ""
         },
@@ -175,19 +178,16 @@
             "showcaselink": ""
         },
         {
-            "name": "Showcase #6: Roblox Building Game (Voxels)",
+            "name": "Showcase #6: Roblox Building Game (Work In Progress)",
             "About": "Roblox Building games usually consist of placing minecraft-like blocks, and building structures. This is an advanced template that has many features, such as saving buildings, and a large variety of blocks.",
-            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
+            "MainImage": "Images/Voxels/Image1.png",
             "ComponentsList": [
-                "Easy Template to make over 7+ Games",
-                "Advanced monetization System",
+                "Easy Template to make over 2+ Games",
+                "Advanced Block System (Rotating, Advanced Camera Controls)",
                 "Advanced Reward System for people playing the game, extending Monetization"
             ],
             "media": [
-                "Images/TrollTower/TrollTower.mp4",
-                "Images/TrollTower/Image1.png",
-                "Images/TrollTower/Image2.png",
-                "Images/TrollTower/Image3.png"
+                "Images/Voxels/Voxels.mp4"
             ],
             "showcaselink": ""
         },
@@ -233,17 +233,23 @@
         {
             "name": "Showcase #10: Bridge Game",
             "About": "This theme is based on a genre at the time, where people would build a bridge with blocks, and fill the empty gap. When making money by placing blocks, you can upgrade your blocks to make more money. The goal is to reach the end of the bridge, and fight a boss.",
-            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
+            "MainImage": "Images/BridgeGame/Image1.png",
             "ComponentsList": [
-                "Easy Template to make over 7+ Games",
-                "Advanced monetization System",
+                "Easy Template to make over 4+ Games",
+                "Advanced Auto Build/Stacking System",
+                "Advanced Minion System",
+                "Advanced Boss-Fight System",
                 "Advanced Reward System for people playing the game, extending Monetization"
             ],
             "media": [
-                "Images/TrollTower/TrollTower.mp4",
-                "Images/TrollTower/Image1.png",
-                "Images/TrollTower/Image2.png",
-                "Images/TrollTower/Image3.png"
+                "Images/BridgeGame/BridgeGame.mp4",
+                "Images/BridgeGame/Image1.png",
+                "Images/BridgeGame/Image2.png",
+                "Images/BridgeGame/Image3.png",
+                "Images/BridgeGame/Image4.png",
+                "Images/BridgeGame/BridgeGame2.mp4",
+                "Images/BridgeGame/BridgeGame3.mp4"
+
             ],
             "showcaselink": ""
         }
