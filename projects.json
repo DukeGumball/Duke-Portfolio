@@ -13,101 +13,253 @@
             "url": "https://dukegumball.github.io/Duke-Portfolio/Robotics"
         }
     ],
-    
     "Showcases": [
         {
             "name": "Showcase #1: Quest of Banana (RPG Version)",
-            "About": "This ROBLOX game is an RPG game, based on the original Quest of Banana obby game. It is mainly influenced by Paper Mario and other RPG games. However, I stopped working on this project to focus on other projects.",
-            "MainImage": "Images/QOB-RPGGame/QOB_3.png", 
+            "About": "This ROBLOX game is an RPG game, based on the original Quest of Banana story game. It is mainly influenced by Paper Mario and other RPG games. However, I stopped working on this project to focus on other projects. Below shows the unfinished Battle System, along with the Inventory and Backpack System, and the Quest and Dialogue System.",
+            "MainImage": "Images/QOB-RPGGame/QOB_3.png",
             "ComponentsList": [
                 "Battle System with Advanced Mechanics and Visuals",
-                "Advanced Inventory System", 
+                "Advanced Inventory System",
                 "Advanced Quest and Dialogue System"
             ],
             "media": [
-                
                 "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
                 "https://www.youtube.com/watch?v=oTGFoaOrcC0"
-               
-
             ],
             "showcaselink": ""
         },
         {
             "name": "Showcase #2: Big Brain Returns!",
-            "About": "Second version of the big brain boss, and it includes parkour, extended boss fight, catapult, dialog, etc. I recommend you play this game",
-            "MainImage": "Images/Bigbrainreturns2.png", 
+            "About": "This ROBLOX game is a story-based game, where you fight a Big Brained Boss. It has multiple stages, and has great replayability.",
+            "MainImage": "Images/BigBrainReturns - StoryGame/Image1.png",
             "ComponentsList": [
-                "Attack",
-                "Movement", 
-                "Inventory"
+                "Advanced Quest and Dialogue System",
+                "Boss Fight with Multiple Stages"
             ],
             "media": [
-                "Images", 
-                "Images/BigBrainReturns3.png"
-
+                "Images/BigBrainReturns - StoryGame/Image1.png",
+                "Images/BigBrainReturns - StoryGame/Image2.png",
+                "Images/BigBrainReturns - StoryGame/Image3.png",
+                "Images/BigBrainReturns - StoryGame/BigBrainReturns3.png",
+                "Images/BigBrainReturns - StoryGame/BigBrainReturns2.png"
             ],
-            "showcaselink": ""
+            "showcaselink": "https://www.roblox.com/games/16082510235/Big-Brain-Returns"
+        },
+        {
+            "name": "Showcase #3: Spinner Tower Game",
+            "About": "Created in a one day Game-Jam, this is a round-based game where you must survive a giant spinner with random events.",
+            "MainImage": "Images/SpinnerTower/Image1.png",
+            "ComponentsList": [
+                "Advanced Voting and Round-Based System",
+                "Basic Shop System"
+            ],
+            "media": [
+                "Images/SpinnerTower/Image2.png",
+                "Images/SpinnerTower/Image3.png",
+                "Images/SpinnerTower/Image4.png",
+                "Images/SpinnerTower/Image5.png",
+                "Images/SpinnerTower/Image1.png",
+                "Images/SpinnerTower/SpinnerGame.mp4"
+            ],
+            "showcaselink": "https://www.roblox.com/games/9006461676/Spinner-Mania"
+        },
+        {
+            "name": "Showcase #4: Rebirth Story Game",
+            "About": "An older version of the previous Big Brain Returns game, this is a story-based game where you fight a Big Brained Boss. It has multiple stages, and has great replayability.",
+            "MainImage": "Images/TheRebirth-StoryGame/Image1.png",
+            "ComponentsList": [
+                "Advanced Quest and Dialogue System",
+                "Boss Fight with a Stage"
+            ],
+            "media": [
+                "Images/TheRebirth-StoryGame/TheRebirth.mp4",
+                "Images/TheRebirth-StoryGame/Image4.png",
+                "Images/TheRebirth-StoryGame/Image1.png",
+                "Images/TheRebirth-StoryGame/Image2.png",
+                "Images/TheRebirth-StoryGame/Image3.png"
+            ],
+            "showcaselink": "https://www.roblox.com/games/13107622557/The-Rebirth-2023"
         }
     ],
-
     "CommissionWork": [
         {
-            "name": "Commission Showcase #1: Obby",
-            "About": "Title Cool",
-            "MainImage": "Images/QOB_3.png", 
+            "name": "Showcase #1: Troll Tower Game",
+            "About": "This is a ROBLOX game template made for a client. A troll tower consists of a large obstical course, with many traps and troll elements.",
+            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
             "ComponentsList": [
-                "Attack",
-                "Movement", 
-                "Inventory"
+                "Montesation Elements to Help Client Earn Robux",
+                "Advanced Leaderboard System",
+                "Advanced Reward System for people playing the game, extending monetization"
             ],
             "media": [
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "Images/QOB_3.png",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo"
-
+                "Images/TrollTower/TrollTower.mp4",
+                "Images/TrollTower/Image1.png",
+                "Images/TrollTower/Image2.png",
+                "Images/TrollTower/Image3.png"
+            ],
+            "showcaselink": "https://www.roblox.com/games/81529667146442/CRAZY-Troll-Slap-Tower"
+        },
+        {
+            "name": "Showcase #2: Obby Game",
+            "About": "This is a ROBLOX game template made for a client. An Obby is a long obstacle course, with many different stages and challenges. We have made over 5 variants using this same template, and have this in our marketplace.",
+            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
+            "ComponentsList": [
+                "Easy Template to make over 7+ Games",
+                "Advanced monetization System",
+                "Advanced Reward System for people playing the game, extending Monetization"
+            ],
+            "media": [
+                "Images/TrollTower/TrollTower.mp4",
+                "Images/TrollTower/Image1.png",
+                "Images/TrollTower/Image2.png",
+                "Images/TrollTower/Image3.png"
+            ],
+            "showcaselink": ""
+        },
+        {
+            "name": "Showcase #3: Glass Bridge Game",
+            "About": "Based on Squid Game, we created the classic Bridge game on Roblox. This advanced template consists of players picking random glass tiles, trying to cross the area and win.",
+            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
+            "ComponentsList": [
+                "Easy Template to make over 7+ Games",
+                "Advanced monetization System",
+                "Advanced Reward System for people playing the game, extending Monetization"
+            ],
+            "media": [
+                "Images/TrollTower/TrollTower.mp4",
+                "Images/TrollTower/Image1.png",
+                "Images/TrollTower/Image2.png",
+                "Images/TrollTower/Image3.png"
+            ],
+            "showcaselink": ""
+        },
+        {
+            "name": "Showcase #4: Cartride Game",
+            "About": "Made for clients and for templates. Classic type of genre on roblox, where you ride a cart to the finish line, and beware of other players. ",
+            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
+            "ComponentsList": [
+                "Easy Template to make over 7+ Games",
+                "Advanced monetization System",
+                "Advanced Reward System for people playing the game, extending Monetization"
+            ],
+            "media": [
+                "Images/TrollTower/TrollTower.mp4",
+                "Images/TrollTower/Image1.png",
+                "Images/TrollTower/Image2.png",
+                "Images/TrollTower/Image3.png"
+            ],
+            "showcaselink": ""
+        },
+        {
+            "name": "Showcase #5: Advanced Plugin For All Games",
+            "About": "Made for clients and for templates. Roblox has in-studio plugins, which can help developers make games faster. This is an advanced plugin that automatically finds which game you own out of our library, and automatically attaches settings to it.",
+            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
+            "ComponentsList": [
+                "Easy Template to make over 7+ Games",
+                "Advanced monetization System",
+                "Advanced Reward System for people playing the game, extending Monetization"
+            ],
+            "media": [
+                "Images/TrollTower/TrollTower.mp4",
+                "Images/TrollTower/Image1.png",
+                "Images/TrollTower/Image2.png",
+                "Images/TrollTower/Image3.png"
+            ],
+            "showcaselink": ""
+        },
+        {
+            "name": "Showcase #6: Roblox Building Game (Voxels)",
+            "About": "Roblox Building games usually consist of placing minecraft-like blocks, and building structures. This is an advanced template that has many features, such as saving buildings, and a large variety of blocks.",
+            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
+            "ComponentsList": [
+                "Easy Template to make over 7+ Games",
+                "Advanced monetization System",
+                "Advanced Reward System for people playing the game, extending Monetization"
+            ],
+            "media": [
+                "Images/TrollTower/TrollTower.mp4",
+                "Images/TrollTower/Image1.png",
+                "Images/TrollTower/Image2.png",
+                "Images/TrollTower/Image3.png"
+            ],
+            "showcaselink": ""
+        },
+        {
+            "name": "Showcase #7: Advanced Promo-code System",
+            "About": "Roblox games have promo-codes, which can be used to give players free items or currency. This is an advanced promo-code system that allows developers to create and manage promo-codes easily.",
+            "MainImage": "Images/Promocode System/Image1.png",
+            "ComponentsList": [
+                "Easy Template to make over 7+ Games",
+                "Advanced monetization System",
+                "Advanced Reward System for people playing the game, extending Monetization"
+            ],
+            "media": [
+                "Images/Promocode System/Promocode System.mp4"
+            ],
+            "showcaselink": ""
+        },
+        {
+            "name": "Showcase #8: Advanced Daily Rewards System",
+            "About": "Roblox games have daily rewards to keep retention in games. This helps developers keep players coming back. This is an advanced daily rewards system that allows developers to create and manage daily rewards easily.",
+            "MainImage": "Images/DailyReward System/Image1.png",
+            "ComponentsList": [
+                "Easy Template to make over 7+ Games",
+                "Advanced monetization System",
+                "Advanced Reward System for people playing the game, extending Monetization"
+            ],
+            "media": [
+                "Images/DailyReward System/DailyRewardSystem.mp4"
+            ],
+            "showcaselink": ""
+        },
+        {
+            "name": "Showcase #9: Advanced Wheel Rewards System",
+            "About": "Roblox games have wheels for players to get random rewards from. Helps with retention and monetization. This is an advanced wheel system that allows developers to create and manage wheels easily.",
+            "MainImage": "Images/WheelSystem/Image1.png",
+            "ComponentsList": [
+                "Easy Template to make over 7+ Games",
+                "Advanced monetization System",
+                "Advanced Reward System for people playing the game, extending Monetization"
+            ],
+            "media": [
+                "Images/WheelSystem/WheelSystem.mp4"
+            ],
+            "showcaselink": ""
+        },
+        {
+            "name": "Showcase #10: Bridge Game",
+            "About": "This theme is based on a genre at the time, where people would build a bridge with blocks, and fill the empty gap. When making money by placing blocks, you can upgrade your blocks to make more money. The goal is to reach the end of the bridge, and fight a boss.",
+            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
+            "ComponentsList": [
+                "Easy Template to make over 7+ Games",
+                "Advanced monetization System",
+                "Advanced Reward System for people playing the game, extending Monetization"
+            ],
+            "media": [
+                "Images/TrollTower/TrollTower.mp4",
+                "Images/TrollTower/Image1.png",
+                "Images/TrollTower/Image2.png",
+                "Images/TrollTower/Image3.png"
             ],
             "showcaselink": ""
         }
-     
+       
     ],
-
     "RoboticsShowcase": [
         {
-            "name": "Commission Showcase #1: Obby",
-            "About": "Title Cool",
-            "MainImage": "Images/QOB_3.png", 
+            "name": "Robotics Club Sanwich Robot",
+            "About": "Made in robotics club, this robot is made to move sandwiches. With a limited time in the year, we were only able to finish the moving cart, but this year we will add the scissor lift.",
+            "MainImage": "Images/QOB_3.png",
             "ComponentsList": [
                 "Attack",
-                "Movement", 
+                "Movement",
                 "Inventory"
             ],
             "media": [
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "Images/QOB_3.png",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo"
-
+                
             ],
             "showcaselink": ""
         }
-     
     ]
 }
