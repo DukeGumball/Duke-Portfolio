@@ -256,15 +256,14 @@
         {
             "name": "Robotics Club Sanwich Robot",
             "About": "Made in robotics club, this robot is made to move sandwiches. With a limited time in the year, we were only able to finish the moving cart, but this year we will add the scissor lift.",
-            "MainImage": "Images/SandwichRobot.jpg",
+            "MainImage": "Images/SandwichRobot/Image1.jpg",
             "ComponentsList": [
                 "Attack",
                 "Movement",
                 "Inventory"
             ],
             "media": [
-                "Images/SandwichRobot.jpg",
-                "Sandwich.mov"
+                "Images/SandwichRobot/Sandwich.mp4"
             ],
             "showcaselink": ""
         }
