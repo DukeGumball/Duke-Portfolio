@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         })
         .then(data => {
             const projects = data.ProjectsTab;
-            const showcases = data.Showcases;
+            const showcases = data.RoboticsShowcase;
 
             for (const project of projects) {
                 const projectLabel = document.createElement("button");
