@@ -1,20 +1,16 @@
 {
     "ProjectsTab": [
         {
-            "name": "RBX Projects",
+            "name": "Roblox Projects",
             "url": "https://dukegumball.github.io/Duke-Portfolio/Roblox-Games"
         },
         {
-            "name": "RBX Commission Work",
-            "url": "https://dukegumball.github.io/Duke-Portfolio/Roblox-Commission-Work"
-        },
-        {
-            "name": "Programming Projects",
+            "name": "Roblox Commission Work",
             "url": "https://dukegumball.github.io/Duke-Portfolio/Roblox-Commission-Work"
         },
         {
             "name": "Robotics Projects",
-            "url": "https://dukegumball.github.io/Duke-Portfolio/Roblox-Commission-Work"
+            "url": "https://dukegumball.github.io/Duke-Portfolio/Robotics"
         }
     ],
     
@@ -55,6 +51,36 @@
     ],
 
     "CommissionWork": [
+        {
+            "name": "Commission Showcase #1: Obby",
+            "About": "Title Cool",
+            "MainImage": "Images/QOB_3.png", 
+            "ComponentsList": [
+                "Attack",
+                "Movement", 
+                "Inventory"
+            ],
+            "media": [
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "Images/QOB_3.png",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
+                "https://www.youtube.com/watch?v=KL1_E2_Z_Jo"
+
+            ],
+            "showcaselink": ""
+        }
+     
+    ],
+
+    "Robotics": [
         {
             "name": "Commission Showcase #1: Obby",
             "About": "Title Cool",
