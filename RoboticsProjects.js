@@ -73,6 +73,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 const imageSlide = document.createElement("div");
                 const fitImage = document.createElement("div");
                 const components = document.createElement("h2");
+                const linkButton = document.createElement("button");
 
                 titleTag.id = "titleTag"
                 titleTag.innerHTML = showcase.name;
@@ -88,7 +89,20 @@ document.addEventListener("DOMContentLoaded", async () => {
                 components.innerHTML = "Components:";
                 components.id = "titleText"
 
-                showcaseLabel.appendChild(titleTag);
+                linkButton.textContent = "Game Link";
+                linkButton.id = "linkButton";
+                linkButton.onclick = () => {
+                    window.location.href = showcase.showcaselink;
+                };
+
+                showcaseLabel.appendChild(titleTag);    
+
+                if (showcase.showcaselink != "") {
+
+                    showcaseLabel.appendChild(linkButton);
+
+                }
+
                 showcaseLabel.appendChild(aboutLabel);
                 showcaseLabel.appendChild(aboutTag);
                 showcaseLabel.appendChild(mainImage);
@@ -100,7 +114,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                 const range = 25 * mediaAmount;
                 const per = (2 * range) / (mediaAmount - 1);
                 const componentAmount = showcase.ComponentsList.length;
-
 
                 loadVideo(showcase.media[0], fitImage);
 
@@ -135,12 +148,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                     });
 
-                   
+
                 }
 
                 showcaseLabel.appendChild(components);
 
-                for (let x = 0; x < componentAmount; x++) { 
+                for (let x = 0; x < componentAmount; x++) {
 
                     const currentBullet = showcase.ComponentsList[x]
                     const bulletLabel = document.createElement("li");
@@ -148,9 +161,9 @@ document.addEventListener("DOMContentLoaded", async () => {
                     bulletLabel.innerHTML = currentBullet;
 
                     showcaseLabel.appendChild(bulletLabel);
-                    
 
-                }  
+
+                }
 
                 showcaseLabel.appendChild(breakElement);
 

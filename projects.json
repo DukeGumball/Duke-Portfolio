@@ -17,17 +17,18 @@
     "Showcases": [
         {
             "name": "Showcase #1: Quest of Banana (RPG Version)",
-            "About": "This game is an solo RPG game I've been developing for a while; however, it has been cancelled recently. ",
-            "MainImage": "Images/QOB_3.png", 
+            "About": "This ROBLOX game is an RPG game, based on the original Quest of Banana obby game. It is mainly influenced by Paper Mario and other RPG games. However, I stopped working on this project to focus on other projects.",
+            "MainImage": "Images/QOB-RPGGame/QOB_3.png", 
             "ComponentsList": [
-                "Attack",
-                "Movement", 
-                "Inventory"
+                "Battle System with Advanced Mechanics and Visuals",
+                "Advanced Inventory System", 
+                "Advanced Quest and Dialogue System"
             ],
             "media": [
+                
                 "https://www.youtube.com/watch?v=KL1_E2_Z_Jo",
-                "https://www.youtube.com/watch?v=oTGFoaOrcC0&embeds_referring_euri=https%3A%2F%2Fsites.google.com%2F&source_ve_path=Mjg2NjY",
-                "Images/QOB_3.png"
+                "https://www.youtube.com/watch?v=oTGFoaOrcC0"
+               
 
             ],
             "showcaselink": ""
@@ -42,7 +43,7 @@
                 "Inventory"
             ],
             "media": [
-                "Images/Bigbrainreturns2.png", 
+                "Images", 
                 "Images/BigBrainReturns3.png"
 
             ],
