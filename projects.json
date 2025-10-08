@@ -80,6 +80,20 @@
                 "Images/TheRebirth-StoryGame/Image3.png"
             ],
             "showcaselink": "https://www.roblox.com/games/13107622557/The-Rebirth-2023"
+        },
+         {
+            "name": "Showcase #5: Duck Simulator Game (Work in Progress)",
+            "About": "Based on Bee Swarm Simulator, duck harvest seeds to create eggs. This is a very early stage of the game.",
+            "MainImage": "Images/DuckGame/Image1.png",
+            "ComponentsList": [
+                "Very Advanced Duck AI System"
+            ],
+            "media": [
+                "Images/DuckGame/Image1.png",
+                "Images/DuckGame/DuckGame.mp4"
+
+            ],
+            "showcaselink": ""
         }
     ],
     "CommissionWork": [
@@ -258,9 +272,9 @@
             "About": "Made in robotics club, this robot is made to move sandwiches. With a limited time in the year, we were only able to finish the moving cart, but this year we will add the scissor lift.",
             "MainImage": "Images/SandwichRobot/Image1.jpg",
             "ComponentsList": [
-                "Attack",
-                "Movement",
-                "Inventory"
+                "Uses Four Motors and a RPI-4 to Move",
+                "3D Modeled each comonent: Divided into four parts",
+                "Uses a 12V Battery to Power the Robot"
             ],
             "media": [
                 "Images/SandwichRobot/Sandwich.mp4"
