@@ -161,19 +161,16 @@
             "showcaselink": ""
         },
         {
-            "name": "Showcase #5: Advanced Plugin For All Games",
-            "About": "Made for clients and for templates. Roblox has in-studio plugins, which can help developers make games faster. This is an advanced plugin that automatically finds which game you own out of our library, and automatically attaches settings to it.",
-            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
+            "name": "Showcase #5: Advanced Plugin For All Games (Work In Progress)",
+            "About": "Made for clients and for templates. Roblox has in-studio plugins, which can help developers make games faster. This is an advanced plugin that automatically finds which game you own out of our library, and automatically displays settings visually for starting developers. ",
+            "MainImage": "Images/Plugin/Image3.png",
             "ComponentsList": [
-                "Easy Template to make over 7+ Games",
-                "Advanced monetization System",
-                "Advanced Reward System for people playing the game, extending Monetization"
+                "Easy for starting Developers to advance their experience with our templates",
+                "Very simple visuals and easy to use",
+                "Niche as a roblox plugin"
             ],
             "media": [
-                "Images/TrollTower/TrollTower.mp4",
-                "Images/TrollTower/Image1.png",
-                "Images/TrollTower/Image2.png",
-                "Images/TrollTower/Image3.png"
+                "Images/Plugin/Plugin.mp4"
             ],
             "showcaselink": ""
         },
