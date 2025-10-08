@@ -103,34 +103,40 @@
         {
             "name": "Showcase #2: Obby Game",
             "About": "This is a ROBLOX game template made for a client. An Obby is a long obstacle course, with many different stages and challenges. We have made over 5 variants using this same template, and have this in our marketplace.",
-            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
+            "MainImage": "Images/ObbyGame/Image4.png",
             "ComponentsList": [
-                "Easy Template to make over 7+ Games",
+                "Easy Template to make over 10+ Games",
                 "Advanced monetization System",
-                "Advanced Reward System for people playing the game, extending Monetization"
+                "Advanced Reward System for people playing the game, extending Monetization",
+                "Advanced Rebirth System",
+                "Advanced Shop System"
             ],
             "media": [
-                "Images/TrollTower/TrollTower.mp4",
-                "Images/TrollTower/Image1.png",
-                "Images/TrollTower/Image2.png",
-                "Images/TrollTower/Image3.png"
+                "Images/ObbyGame/Obby.mp4",
+                "Images/ObbyGame/Image1.png",
+                "Images/ObbyGame/Image2.png",
+                "Images/ObbyGame/Image3.png",
+                "Images/ObbyGame/Image4.png",
+                "Images/ObbyGame/Obby2.mp4"
             ],
             "showcaselink": ""
         },
         {
             "name": "Showcase #3: Glass Bridge Game",
             "About": "Based on Squid Game, we created the classic Bridge game on Roblox. This advanced template consists of players picking random glass tiles, trying to cross the area and win.",
-            "MainImage": "Images/TrollTower/TrollTowerImage.webp",
+            "MainImage": "Images/GlassBridge/Image1.png",
             "ComponentsList": [
-                "Easy Template to make over 7+ Games",
+                "Easy Template to make over 3+ Games",
                 "Advanced monetization System",
-                "Advanced Reward System for people playing the game, extending Monetization"
+                "Pet System",
+                "Easy to sell once the theme is overused"
             ],
             "media": [
-                "Images/TrollTower/TrollTower.mp4",
-                "Images/TrollTower/Image1.png",
-                "Images/TrollTower/Image2.png",
-                "Images/TrollTower/Image3.png"
+                "Images/GlassBridge/GlassBridge.mp4",
+                "Images/GlassBridge/Image1.png",
+                "Images/GlassBridge/Image2.png",
+                "Images/GlassBridge/Image3.png",
+                "Images/GlassBridge/Image4.png"
             ],
             "showcaselink": ""
         },
@@ -190,8 +196,7 @@
             "About": "Roblox games have promo-codes, which can be used to give players free items or currency. This is an advanced promo-code system that allows developers to create and manage promo-codes easily.",
             "MainImage": "Images/Promocode System/Image1.png",
             "ComponentsList": [
-                "Easy Template to make over 7+ Games",
-                "Advanced monetization System",
+                "Easy System to make over 20+ Games",
                 "Advanced Reward System for people playing the game, extending Monetization"
             ],
             "media": [
@@ -204,8 +209,7 @@
             "About": "Roblox games have daily rewards to keep retention in games. This helps developers keep players coming back. This is an advanced daily rewards system that allows developers to create and manage daily rewards easily.",
             "MainImage": "Images/DailyReward System/Image1.png",
             "ComponentsList": [
-                "Easy Template to make over 7+ Games",
-                "Advanced monetization System",
+                "Easy System to make over 20+ Games",
                 "Advanced Reward System for people playing the game, extending Monetization"
             ],
             "media": [
@@ -218,8 +222,7 @@
             "About": "Roblox games have wheels for players to get random rewards from. Helps with retention and monetization. This is an advanced wheel system that allows developers to create and manage wheels easily.",
             "MainImage": "Images/WheelSystem/Image1.png",
             "ComponentsList": [
-                "Easy Template to make over 7+ Games",
-                "Advanced monetization System",
+                "Easy System to make over 20+ Games",
                 "Advanced Reward System for people playing the game, extending Monetization"
             ],
             "media": [
