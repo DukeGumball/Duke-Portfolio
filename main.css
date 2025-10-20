@@ -1,11 +1,22 @@
+:root {
+  --font-family-main: 'Inter', 'Helvetica', 'Arial', sans-serif;
+}
+
+
+html, body {
+    font-family: var(--font-family-main);
+    color: #2d3a3a;
+    background: #f6faf9;
+    margin: 0;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
 body {
-
     background-color: rgb(255, 255, 255);
-
 }
 
 #linkButton {
-
     padding: 10px 20px;
     font-size: 14px;
     border: 1px solid #ccc;
@@ -14,44 +25,35 @@ body {
     color: black;
     cursor: pointer;
     box-shadow: none;
-    font-family: system-ui;
-
-
 }
 
 #TitleBar {
-
     position: absolute;
     background-color: transparent;
-    font-family: system-ui;
     overflow: hidden;
     border: 0px;
     height: 50px;
+    font-family: var(--font-family-main);
     top: calc(var(--mainbarheight) / 2 - 50px/2);
     margin: 0 auto;
     font-weight: 700;
     font-size: 1.5rem;
     color: #6ebe96;
-
 }
 
 #Projects {
     display: flex;
-
     justify-content: center;
     align-items: center;
     -webkit-text-fill-color: rgb(0, 0, 0);
     -webkit-text-stroke: 0;
-    font-family: system-ui;
     font-weight: 600;
-
     font-size: calc(1 * 1em);
     background-color: transparent;
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 5px;
     margin: 0 auto;
-
 }
 
 #DropDown_Projects {
@@ -63,16 +65,13 @@ body {
     -webkit-text-fill-color: rgb(0, 0, 0);
     -webkit-text-stroke: 0;
     font-size: calc(0.6 * 1em);
-    background-color: transparent;
-    border: 1px solid rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 5px;
-    font-family: system-ui;
     z-index: 5;
     margin: 0 auto;
-
 }
 
 #BaseDropDown_Projects {
@@ -81,23 +80,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 44px;
-    /* Consistent option height */
     min-width: 220px;
-    /* Minimum width for readability */
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 1.6em;
     border: none;
-    /* Remove default border */
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 8px;
-    /* More rounded corners */
     margin: 0.18em 0;
-    /* Space between options */
     background: #f6f8fa;
-    /* Light background */
     color: #222;
     cursor: pointer;
     transition: background 0.18s, color 0.18s, box-shadow 0.18s;
@@ -110,21 +102,16 @@ body {
     box-shadow: 0 2px 8px rgba(60, 60, 60, 0.09);
 }
 
-
 #PageTitle {
-
-    font-family: system-ui;
     text-align: center;
     font-size: 40px;
     margin: 40px;
     -webkit-text-fill-color: rgb(0, 0, 0);
     font-weight: 700;
     margin: 0 auto;
-
 }
 
 #MainBar {
-
     box-sizing: border-box;
     display: flex;
     position: absolute;
@@ -136,20 +123,16 @@ body {
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
     align-items: center;
-
 }
 
 #MainBar nav {
     margin-left: auto;
-    /* push nav to the far right */
 }
 
 #ProjectContent {
-
     background-color: rgb(255, 255, 255);
     z-index: 10;
     margin: 0 auto;
-
 }
 
 #ProjectImage {
@@ -158,14 +141,10 @@ body {
     max-width: 80%;
     height: auto;
     margin: 0 auto;
-    margin: 0 auto;
-
 }
 
 #imageSlide {
-
     --mainBox: 250px;
-
     position: relative;
     display: flex;
     justify-content: center;
@@ -179,29 +158,22 @@ body {
     border-style: solid;
     border-width: 0.25;
     box-sizing: border-box;
-
-
-
 }
 
 #squares {
-
     position: absolute;
     display: flex;
     background-color: rgb(255, 255, 255, 0.3);
     width: 25px;
     height: 25px;
-
     border-radius: 100px;
     border-color: rgb(0, 0, 0, 0.3);
     border-style: solid;
     border-width: 0.25;
-
     bottom: 0;
 }
 
 #fitFrame {
-
     position: absolute;
     display: flex;
     width: 75%;
@@ -214,13 +186,10 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
     outline: 5px solid rgb(0, 0, 0, 0.25);
-    /* Add a stroke (outline) */
     overflow: hidden;
-
 }
 
 #urlShowcase {
-
     position: absolute;
     display: flex;
     width: 100%;
@@ -229,12 +198,9 @@ body {
     margin: auto;
     border-radius: 10px;
     transition: transform 0.5s ease, opacity 0.5s ease;
-
-
 }
 
 #bulletLabel {
-
     list-style-position: outside;
     padding-left: 0;
     margin: 0 auto;
@@ -242,30 +208,24 @@ body {
 }
 
 #showcaseLabel {
-
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin: 0 auto;
     text-align: center;
-
 }
 
-
 #titleText {
-
     margin: 2rem 0;
     text-align: center;
 }
 
 #DescText {
-
     font-size: 1.2rem;
     line-height: 1.8;
     color: #3a4a4a;
     text-align: center;
 }
 
-/* Nav links on the right */
 #nav-links {
     list-style: none;
     display: flex;
@@ -303,7 +263,6 @@ body {
 }
 
 #hero {
-
     padding: 2rem 2rem 2rem;
     text-align: center;
     -webkit-text-fill-color: #4b837a;
@@ -312,23 +271,6 @@ body {
     letter-spacing: 1px;
 }
 
-body {
-    font-family: 'Segoe UI', 'Inter', Arial, sans-serif;
-    color: #2d3a3a;
-    background: #f6faf9;
-    margin: 0;
-    line-height: 1.6;
-}
-
-/* Images ?*/
-
-html {
-    scroll-behavior: smooth;
-}
-
-/* ...other CSS... */
-
-/* Cooler Image Showcase Section */
 .showcase {
     max-width: 1080px;
     margin: 5rem auto;
@@ -435,8 +377,6 @@ html {
     }
 }
 
-/* About Section */
-
 .About {
     max-width: 1080px;
     margin: 5rem auto;
@@ -448,7 +388,6 @@ html {
     font-size: 2.3rem;
     color: #186a5e;
     letter-spacing: 1px;
-
 }
 
 .About p {
@@ -456,10 +395,7 @@ html {
     line-height: 1.8;
     color: #3a4a4a;
     text-align: center;
-
 }
-
-/* Contact Section */
 
 .contact-mini {
     width: 100%;
@@ -528,9 +464,6 @@ html {
 }
 
 .showcase-item {
-    /* If you have a fixed width/height, keep it here as well */
     width: 100%;
-    /* or your desired width */
     height: 100%;
-    /* or your desired height */
 }

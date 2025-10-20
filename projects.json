@@ -16,7 +16,7 @@
     "Showcases": [
         {
             "name": "Showcase #1: Quest of Banana (RPG Version)",
-            "About": "This ROBLOX game is an RPG game, based on the original Quest of Banana story game. It is mainly influenced by Paper Mario and other RPG games. However, I stopped working on this project to focus on other projects. Below shows the unfinished Battle System, along with the Inventory and Backpack System, and the Quest and Dialogue System.",
+            "About": "This ROBLOX game is an RPG game, based on the original Quest of Banana story game. It is mainly influenced by Paper Mario and other RPG games. Below shows the unfinished Battle System, along with the Inventory and Backpack System, and the Quest and Dialogue System.",
             "MainImage": "Images/QOB-RPGGame/QOB_3.png",
             "ComponentsList": [
                 "Battle System with Advanced Mechanics and Visuals",
@@ -31,7 +31,7 @@
         },
         {
             "name": "Showcase #2: Big Brain Returns!",
-            "About": "This ROBLOX game is a story-based game, where you fight a Big Brained Boss. It has multiple stages, and has great replayability.",
+            "About": "This ROBLOX game is story-based and involves fighting a Big Brained Boss across multiple stages; it is designed to be played again and again.",
             "MainImage": "Images/BigBrainReturns - StoryGame/Image1.png",
             "ComponentsList": [
                 "Advanced Quest and Dialogue System",
@@ -48,7 +48,7 @@
         },
         {
             "name": "Showcase #3: Spinner Tower Game",
-            "About": "Created in a one day Game-Jam, this is a round-based game where you must survive a giant spinner with random events.",
+            "About": "Created in a one day Game-Jam, this is a round-based format where the player must survive a giant spinner amid a series of randomized events.",
             "MainImage": "Images/SpinnerTower/Image1.png",
             "ComponentsList": [
                 "Advanced Voting and Round-Based System",
@@ -66,7 +66,7 @@
         },
         {
             "name": "Showcase #4: Rebirth Story Game",
-            "About": "An older version of the previous Big Brain Returns game, this is a story-based game where you fight a Big Brained Boss. It has multiple stages, and has great replayability.",
+            "About": "An older version of the previous Big Brain Returns game, this is story-based and involves fighting a Big Brained Boss; it is designed to be played again and again.",
             "MainImage": "Images/TheRebirth-StoryGame/Image1.png",
             "ComponentsList": [
                 "Advanced Quest and Dialogue System",
@@ -83,7 +83,7 @@
         },
          {
             "name": "Showcase #5: Duck Simulator Game (Work in Progress)",
-            "About": "Based on Bee Swarm Simulator, duck harvest seeds to create eggs. This is a very early stage of the game.",
+            "About": "Based on Bee Swarm Simulator, the farmer leads the duck to harvest seeds to create eggs.",
             "MainImage": "Images/DuckGame/Image1.png",
             "ComponentsList": [
                 "Very Advanced Duck AI System"
@@ -155,7 +155,7 @@
         },
         {
             "name": "Showcase #4: Cartride Game",
-            "About": "Made for clients and for templates. Classic type of genre on roblox, where you ride a cart to the finish line, and beware of other players. ",
+            "About": "Made for clients and for templates. This classic genre on Roblox involves riding a cart to the finish line while watching out for other players.",
             "MainImage": "Images/CartRide/Image1.png",
             "ComponentsList": [
                 "Easy Template to make over 4+ Games",
@@ -175,7 +175,7 @@
         },
         {
             "name": "Showcase #5: Advanced Plugin For All Games (Work In Progress)",
-            "About": "Made for clients and for templates. Roblox has in-studio plugins, which can help developers make games faster. This is an advanced plugin that automatically finds which game you own out of our library, and automatically displays settings visually for starting developers. ",
+            "About": "Made for clients and for templates. Roblox has in-studio plugins, which can help developers make games faster. This is an advanced plugin that automatically finds which game is already owned and automatically displays settings visually for starting developers",
             "MainImage": "Images/Plugin/Image3.png",
             "ComponentsList": [
                 "Easy for starting Developers to advance their experience with our templates",
