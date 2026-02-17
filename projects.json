@@ -188,18 +188,28 @@
             "showcaselink": ""
         },
         {
-            "name": "Showcase #6: Roblox Building Game (Work In Progress)",
+            "name": "Showcase #6: Roblox Building Game",
             "About": "Roblox Building games usually consist of placing minecraft-like blocks, and building structures. This is an advanced template that has many features, such as saving buildings, and a large variety of blocks.",
-            "MainImage": "Images/Voxels/Image1.png",
+            "MainImage": "Images/Voxels/VoxelMain.png",
             "ComponentsList": [
                 "Easy Template to make over 2+ Games",
                 "Advanced Block System (Rotating, Advanced Camera Controls)",
+                "Advanced MarketPlace System (Missions, Shops)",
+                "Hundreds of Blocks and variations",
+                "Advanced Redstone System (Not many games have this.) Includes Redstone, Pistons, StickyPistons",
                 "Advanced Reward System for people playing the game, extending Monetization"
             ],
             "media": [
-                "Images/Voxels/Voxels.mp4"
+                "Images/Voxels/GameTour.mp4",
+                "Images/Voxels/Voxels.mp4",
+                "Images/Voxels/Voxel1.png",
+                "Images/Voxels/Voxel2.png",
+                "Images/Voxels/Voxel3.png",
+                "Images/Voxels/DoorExample.mp4",
+                "Images/Voxels/DoorExample2.mp4"
+         
             ],
-            "showcaselink": ""
+            "showcaselink": "https://www.roblox.com/games/133084176343216/Build-With-Friends"
         },
         {
             "name": "Showcase #7: Advanced Promo-code System",
